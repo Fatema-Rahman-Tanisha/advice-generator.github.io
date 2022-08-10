@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="w-full h-[100vh] bg-[#202632] flex justify-center items-center">
+  <div
+    class="quotebox relative w-[90%] sm:w-[35rem] h-[22rem] rounded-2xl bg-[#313a49] flex flex-col justify-evenly items-center py-10 box-border">
+    <p class="text-[#56fbae] tracking-widest font-semibold" id="serialno">ADVICE #117</p>
+    <p class="advice text-gray-200 font-semibold text-2xl sm:text-3xl px-6 text-center" id="quotes"></p>
+    <div class="pauseicon flex justify-center items-center z-30 my-5">
+      <div class="1 line w-2 h-6 bg-white mx-2 rounded-2xl"></div>
+      <div class="1 line w-2 h-6 bg-white rounded-2xl"></div>
+    </div>
+    <!-- <div class="hr w-[90%] h-px bg-gray-500 relative bottom-10 z-20"></div> -->
+    <div class="dicebox w-14 h-14 bg-[#56fbae] rounded-full flex justify-center items-center absolute bottom-[-30px]">
+      <img src="./images/icon-dice.svg" alt="">
+    </div>
+  </div>
+  <!-- API LINK 
+  https://api.adviceslip.com/advice
+ -->
+ <script src="./script.js"></script>
+</body>
+
+</html>
